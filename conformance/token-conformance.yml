@@ -1,0 +1,10 @@
+generated: '2026-07-21'
+method: searched
+source: https://trust.token.security/
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: SOC 2 Type 2 attestation published on Token Security Trust Center
+- id: iso-27001
+  conforms: true
+  evidence: ISO/IEC 27001:2022 certification published on Token Security Trust Center

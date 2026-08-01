@@ -1,0 +1,17 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://trust.token.security/
+url: https://trust.token.security/
+certifications:
+- SOC 2 Type 2
+- ISO/IEC 27001:2022
+programs:
+- Responsible Disclosure
+evidence:
+- source: https://trust.token.security/
+  keywords:
+  - soc 2 type 2
+  - iso/iec 27001:2022
+  - responsible disclosure
+  - trust center

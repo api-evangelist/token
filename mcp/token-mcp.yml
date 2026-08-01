@@ -1,0 +1,39 @@
+generated: '2026-07-21'
+method: searched
+status: published
+source: https://www.token.security/product/mcp-server-and-ai-agent
+server:
+  name: Token MCP Server
+  # The provider publishes the MCP server as a product feature consumed from
+  # host applications (Claude, ChatGPT, Gemini) and AI-agent IDEs (Cursor).
+  # No public hosted URL, transport, or auth method is disclosed on the
+  # product page; connection is provisioned per-tenant. Left unset rather
+  # than fabricated.
+  transport: null
+  url: null
+  clients:
+  - Claude
+  - ChatGPT
+  - Gemini
+  - Cursor
+description: >-
+  The Token MCP Server exposes the Token Security non-human identity (NHI)
+  platform to AI assistants and agents over the Model Context Protocol. It lets
+  an operator query and act on NHI data conversationally from their tool of
+  choice. A companion native "Token AI Agent" is built into the Token UI.
+capability_areas:
+- NHI Inventory
+- NHI Security Posture Management
+- Lifecycle Management
+- Secrets
+- Threat Detection and Response
+example_tasks:
+- Identify risky non-human identities
+- Generate remediation scripts
+- Analyze cross-cloud identity usage
+tools: []   # No public tool manifest is published; tenant-provisioned.
+notes: >-
+  Vendor-hosted MCP server tied to the Token Security SaaS platform, not a
+  standalone/open developer API. Details (endpoint, transport, tool list,
+  authentication) are provisioned per customer and are not published publicly
+  as of the generated date.

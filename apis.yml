@@ -1,8 +1,29 @@
 aid: token
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/token.png
 name: Token
-description: Token is a company surfaced as a portfolio company of bloomberg-beta, ggv-capital, qiming
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Token Security is a cybersecurity company that secures non-human identities
+  (NHIs) and AI agents across on-premises, hybrid, and cloud environments. Its
+  platform continuously discovers every AI agent, service account, and machine
+  identity, maps ownership and security posture, detects identity threats, and
+  automates remediation. Capabilities span NHI inventory, security posture
+  management, lifecycle management, secrets, and identity threat detection and
+  response. The company also ships the Token MCP Server and a native Token AI
+  Agent so security teams can query and act on NHI data conversationally from
+  Claude, ChatGPT, Gemini, or Cursor. Backed by Bloomberg Beta, GGV Capital, and
+  Qiming, Token Security serves enterprise security teams, CISOs, and IAM
+  professionals governing machine and agent identity at scale.
 url: https://raw.githubusercontent.com/api-evangelist/token/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +35,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Security
+- Cybersecurity
+- Non-Human Identity
+- Identity and Access Management
+- AI Agents
+- Model Context Protocol
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +51,32 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/token-domain-security.yml
 - type: Website
   url: https://www.token.security/
+- type: Blog
+  url: https://www.token.security/blog
+- type: GitHubOrganization
+  url: https://github.com/tokensec
+- type: TermsOfService
+  url: https://www.token.security/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.token.security/legal/privacy-policy
+- type: TrustCenter
+  url: security/token-trust-center.yml
+- type: Compliance
+  url: https://trust.token.security/
+- type: Security
+  url: https://trust.token.security/
+- type: VulnerabilityDisclosure
+  url: security/token-vulnerability-disclosure.yml
+- type: Conformance
+  url: conformance/token-conformance.yml
+- type: MCPServer
+  url: mcp/token-mcp.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
